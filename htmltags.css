@@ -1,0 +1,123 @@
+.left-slide h3::before {
+    content: '</h3>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    left: -50px;
+    transform: translate(-50%,-50%);
+}
+.left-slide h3::after {
+    content: '</h3>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    right: -100px;
+    transform: translate(-50%,-50%);
+
+}
+.left-slide .btn-group::after {
+    content: '<div class="btn-group">';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    font-size: 20px;
+}
+.left-slide .btn-group::before {
+    content: '</div>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+    font-size: 20px;
+}
+.social-slide::before {
+    content: '<ul>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    font-size: 20px;
+}
+.social-slide::after {
+    content: '</ul>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+    font-size: 20px;
+}
+.skills .experience h2::before,.contact-contect h2::before{
+    content: '<h2>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    font-size: 20px;
+}
+.skills .experience h2::after,.contact-contect h2::after{
+    content: '</h2>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -20px;
+    left: -30px;
+    font-size: 20px;
+}
+.skills .exper-content::before,.contact-contect p::before{
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    font-size: 20px;
+}
+.skills .exper-content::after,.contact-contect p::after{
+    content: '</p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    font-size: 20px;
+}
+.contact form::before{
+    content: '<form>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    font-size: 20px;
+}
+.contact form::after{
+    content: '</form>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -10px;
+    left: -30px;
+    font-size: 20px;
+}
